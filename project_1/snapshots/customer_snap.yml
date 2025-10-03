@@ -1,0 +1,10 @@
+snapshots:
+    - name: customer_snapshot
+      relation: ref('bronze_customer')
+      config:
+         schema: bronze_Layer
+         database: dbt_p1
+         unique_key: customer_id
+         strategy: timestamp
+         updated_at: updated_at
+         dbt_valid_to_current: "to_date('9999-12-31')"

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+   - name: raw_source
+     database: dbt_p1
+     schema: source
+     tables:
+        - name: raw_customers_delta
+        - name: raw_products_delta
+        - name: raw_sales_delta 
+

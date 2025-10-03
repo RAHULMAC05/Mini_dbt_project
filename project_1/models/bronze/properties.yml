@@ -1,0 +1,36 @@
+version: 2
+
+models:
+   - name: bronze_sales
+     description: 'This Tbales Contains Raw info of the Sales'
+     columns:
+         - name: order_id
+           description: 'This is the order ID ,this columns is PK'
+           tests:
+              - unique
+              - not_null
+
+   - name: bronze_products
+     description: 'This contains the info of all products'
+     columns:
+       - name: product_id
+         tests:
+            - unique
+            - not_null
+       - name: price
+         tests:
+            - not_null
+   - name: bronze_customer
+     description: 'This Table contains all the info of Customers Details'
+     columns:
+        - name: customer_id
+          tests:
+            - unique
+            - not_null
+        - name: city
+          tests:
+            - accepted_values:
+                 arguments:
+                    values: ['Delhi','Bangalore','Chennai','Mumbai','Hyderabad']
+                 config:
+                    severity: warn

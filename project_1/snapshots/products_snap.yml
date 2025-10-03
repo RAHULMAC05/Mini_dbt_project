@@ -1,0 +1,11 @@
+snapshots:
+    - name: product_snapshot
+      relation: ref('bronze_products')
+      config:
+         schema: bronze_Layer
+         database: dbt_p1
+         unique_key: product_id
+         strategy: timestamp
+         updated_at: updated_at
+         dbt_valid_to_current: "to_date('9999-12-31')"
+          
