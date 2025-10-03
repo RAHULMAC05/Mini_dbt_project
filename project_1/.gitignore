@@ -1,4 +1,6 @@
-
+# dbt local config
+profiles.yml
+*.log
 target/
 dbt_packages/
-logs/
+.env
