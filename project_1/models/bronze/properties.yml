@@ -9,7 +9,6 @@ models:
            tests:
               - unique
               - not_null
-
    - name: bronze_products
      description: 'This contains the info of all products'
      columns:
