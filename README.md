@@ -59,7 +59,6 @@ cd Mini_dbt_project
 
 ---
 
-### 2️⃣ Set up dbt environment
 
 ```
 2. **Set up dbt environment**
@@ -68,7 +67,6 @@ pip install dbt-databricks
 
 ---
 
-### 3️⃣ Configure your dbt profile
 
 ```
 3. **Configure your dbt profile**  
@@ -87,7 +85,6 @@ dbt_p1:
 
 ---
 
-### 4️⃣ Run dbt commands
 
 ```
 4. **Run dbt commands**
@@ -99,7 +96,6 @@ dbt snapshot    # Captures historical changes
 
 ---
 
-### 5️⃣ Example Use Cases
 
 ```
 ## 📊 Example Use Cases
@@ -115,11 +111,11 @@ dbt snapshot    # Captures historical changes
 
 ---
 
-### 7️⃣ License
 
 ```
 7. **License**
 ```markdown
 - This project is for **learning and demonstration purposes** only.
+
 
 
