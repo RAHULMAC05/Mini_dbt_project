@@ -53,7 +53,7 @@ dbt_one/
 ## 🛠️ Getting Started
 
 1. **Clone the repository**
-```bash
+```
 git clone https://github.com/RAHULMAC05/Mini_dbt_project.git
 cd Mini_dbt_project
 
@@ -61,7 +61,8 @@ cd Mini_dbt_project
 
 ### 2️⃣ Set up dbt environment
 
-```markdown
+```
+markdown
 2. **Set up dbt environment**
 ```bash
 pip install dbt-databricks
@@ -121,3 +122,4 @@ dbt snapshot    # Captures historical changes
 7. **License**
 ```markdown
 - This project is for **learning and demonstration purposes** only.
+
