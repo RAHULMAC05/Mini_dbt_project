@@ -58,16 +58,12 @@ git clone https://github.com/RAHULMAC05/Mini_dbt_project.git
 cd Mini_dbt_project
 
 ---
-
-
 ```
 2. **Set up dbt environment**
 ```
 pip install dbt-databricks
 
 ---
-
-
 ```
 3. **Configure your dbt profile**  
 Create or update `~/.dbt/profiles.yml` with your Databricks credentials:
@@ -84,8 +80,6 @@ dbt_p1:
       token: <your-personal-access-token>
 
 ---
-
-
 ```
 4. **Run dbt commands**
 ```bash
@@ -95,8 +89,6 @@ dbt test        # Executes tests
 dbt snapshot    # Captures historical changes
 
 ---
-
-
 ```
 ## 📊 Example Use Cases
 
@@ -110,12 +102,11 @@ dbt snapshot    # Captures historical changes
 - Always keep your credentials safe and local.
 
 ---
-
-
 ```
 7. **License**
 ```markdown
 - This project is for **learning and demonstration purposes** only.
+
 
 
 
