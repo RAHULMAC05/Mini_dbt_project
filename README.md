@@ -62,16 +62,15 @@ cd Mini_dbt_project
 ### 2️⃣ Set up dbt environment
 
 ```
-markdown
 2. **Set up dbt environment**
-```bash
+```
 pip install dbt-databricks
 
 ---
 
 ### 3️⃣ Configure your dbt profile
 
-```markdown
+```
 3. **Configure your dbt profile**  
 Create or update `~/.dbt/profiles.yml` with your Databricks credentials:
 ```yaml
@@ -90,7 +89,7 @@ dbt_p1:
 
 ### 4️⃣ Run dbt commands
 
-```markdown
+```
 4. **Run dbt commands**
 ```bash
 dbt build       # Runs models, tests, snapshots, seeds
@@ -102,7 +101,7 @@ dbt snapshot    # Captures historical changes
 
 ### 5️⃣ Example Use Cases
 
-```markdown
+```
 ## 📊 Example Use Cases
 
 - Track historical changes in customers with **SCD Type 2 snapshots**  
@@ -110,7 +109,7 @@ dbt snapshot    # Captures historical changes
 - Build analytics-ready aggregates in the Gold layer
 
 6. **Security Note**
-```markdown
+```
 - **profiles.yml** (with Databricks token) is excluded from GitHub via `.gitignore`.  
 - Always keep your credentials safe and local.
 
@@ -118,8 +117,9 @@ dbt snapshot    # Captures historical changes
 
 ### 7️⃣ License
 
-```markdown
+```
 7. **License**
 ```markdown
 - This project is for **learning and demonstration purposes** only.
+
 
