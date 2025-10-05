@@ -61,7 +61,8 @@ cd Mini_dbt_project
 ```
 2. **Set up dbt environment**
 ```
-pip install dbt-databricks
+uv add dbt-core
+uv add dbt-databricks
 
 ---
 ```
@@ -106,6 +107,7 @@ dbt snapshot    # Captures historical changes
 7. **License**
 ```markdown
 - This project is for **learning and demonstration purposes** only.
+
 
 
 
